@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="Note.Controls.CropControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid
+        x:Name="RootGrid"
+        Loaded="RootGrid_Loaded"
+        PreviewMouseLeftButtonDown="RootGrid_OnMouseLeftButtonDown"
+        PreviewMouseLeftButtonUp="RootGrid_MouseLeftButtonUp">
+        <Image
+            x:Name="SourceImage"
+            Width="{Binding Path=Width, ElementName=RootGrid}"
+            Height="{Binding Path=Height, ElementName=RootGrid}"
+            Stretch="Fill" />
+        <Grid Background="#000000" Opacity="0.4" />
+        <Image
+            x:Name="ClipImage"
+            Width="{Binding Path=Width, ElementName=RootGrid}"
+            Height="{Binding Path=Height, ElementName=RootGrid}"
+            Stretch="Fill" />
+        <InkCanvas
+            x:Name="inkCanvas"
+            Width="{Binding Path=Width, ElementName=RootGrid}"
+            Height="{Binding Path=Height, ElementName=RootGrid}"
+            Background="Transparent"
+            MouseLeave="InkCanvas_MouseLeave"
+            PreviewMouseDown="InkCanvas_PreviewMouseDown"
+            PreviewMouseLeftButtonUp="InkCanvas_PreviewMouseLeftButtonUp"
+            PreviewMouseMove="InkCanvas_PreviewMouseMove" />
+    </Grid>
+</UserControl>
+

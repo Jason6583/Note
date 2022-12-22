@@ -1,0 +1,36 @@
+﻿<UserControl
+    x:Class="Note.InkCanvasEx.Controls.TextContainer"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid x:Name="ContainerGrid" Background="Transparent"
+        PointerEntered="ContainerGrid_PointerEntered"
+        PointerExited="ContainerGrid_PointerExited"
+        ManipulationMode="TranslateX,TranslateY"
+        ManipulationStarted="Manipulator_OnManipulationStarted"
+        ManipulationDelta="Manipulator_OnManipulationDelta">
+        <TextBox x:Name="textBox"
+                 Margin="36" 
+                 Foreground="Black" 
+                 AcceptsReturn="True" 
+                 TextWrapping="Wrap"
+                 Background="Transparent"/>
+        <Rectangle x:Name="border"
+                   Stretch="Fill" Margin="12"
+                   Stroke="#5E75FD"
+                   StrokeDashArray="2 2"  
+                   StrokeThickness="2"
+                   Visibility="Collapsed"
+                   IsHitTestVisible="False"/>
+        <Image Width="24" Height="24" 
+               x:Name="closer"
+               Source="ms-appx:///Assets/ElementClose.png" 
+               HorizontalAlignment="Right" VerticalAlignment="Top"
+               Tapped="CloseImage_Tapped"
+               Visibility="Collapsed"/>
+        <Image x:Name="resizer" 
+               Width="24" Height="24" 
+               Source="ms-appx:///Assets/ElementScale.png" 
+               HorizontalAlignment="Right" VerticalAlignment="Bottom"
+               Visibility="Collapsed"/>
+    </Grid>
+</UserControl>

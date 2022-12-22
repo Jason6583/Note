@@ -1,0 +1,102 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--图片资源-->
+    <BitmapImage x:Key="BallPen" UriSource="pack://application:,,,/Note;component/Resources/Images/BallPen.png"/>
+    <BitmapImage x:Key="BallPenSelected" UriSource="pack://application:,,,/Note;component/Resources/Images/BallPenSelected.png"/>
+    <BitmapImage x:Key="CancelSelected" UriSource="pack://application:,,,/Note;component/Resources/Images/CancelSelected.png"/>
+    <BitmapImage x:Key="ChangeBackground" UriSource="pack://application:,,,/Note;component/Resources/Images/ChangeBackground.png"/>
+    <BitmapImage x:Key="Close" UriSource="pack://application:,,,/Note;component/Resources/Images/Close.png"/>
+    <BitmapImage x:Key="CloseHover" UriSource="pack://application:,,,/Note;component/Resources/Images/CloseHover.png"/>
+    <BitmapImage x:Key="Cut" UriSource="pack://application:,,,/Note;component/Resources/Images/Cut.png"/>
+    <BitmapImage x:Key="CutSelected" UriSource="pack://application:,,,/Note;component/Resources/Images/CutSelected.png"/>
+    <BitmapImage x:Key="Delete" UriSource="pack://application:,,,/Note;component/Resources/Images/Delete.png"/>
+    <BitmapImage x:Key="EditAudio" UriSource="pack://application:,,,/Note;component/Resources/Images/EditAudio.png"/>
+    <BitmapImage x:Key="Eraser" UriSource="pack://application:,,,/Note;component/Resources/Images/Eraser.png"/>
+    <BitmapImage x:Key="Erasing" UriSource="pack://application:,,,/Note;component/Resources/Images/Erasing.png"/>
+    <BitmapImage x:Key="InsertPicture" UriSource="pack://application:,,,/Note;component/Resources/Images/InsertPicture.png"/>
+    <BitmapImage x:Key="Maximize" UriSource="pack://application:,,,/Note;component/Resources/Images/Maximize.png"/>
+    <BitmapImage x:Key="MaximizeHover" UriSource="pack://application:,,,/Note;component/Resources/Images/MaximizeHover.png"/>
+    <BitmapImage x:Key="Minimize" UriSource="pack://application:,,,/Note;component/Resources/Images/Minimize.png"/>
+    <BitmapImage x:Key="MinimizeHover" UriSource="pack://application:,,,/Note;component/Resources/Images/MinimizeHover.png"/>
+    <BitmapImage x:Key="More" UriSource="pack://application:,,,/Note;component/Resources/Images/More.png"/>
+    <BitmapImage x:Key="MoreHover" UriSource="pack://application:,,,/Note;component/Resources/Images/MoreHover.png"/>
+    <BitmapImage x:Key="ParkPen" UriSource="pack://application:,,,/Note;component/Resources/Images/ParkPen.png"/>
+    <BitmapImage x:Key="ParkPenSelected" UriSource="pack://application:,,,/Note;component/Resources/Images/ParkPenSelected.png"/>
+    <BitmapImage x:Key="Pen" UriSource="pack://application:,,,/Note;component/Resources/Images/Pen.png"/>
+    <BitmapImage x:Key="PenSelected" UriSource="pack://application:,,,/Note;component/Resources/Images/PenSelected.png"/>
+    <BitmapImage x:Key="Pencil" UriSource="pack://application:,,,/Note;component/Resources/Images/Pencil.png"/>
+    <BitmapImage x:Key="PencilSelected" UriSource="pack://application:,,,/Note;component/Resources/Images/PencilSelected.png"/>
+    <BitmapImage x:Key="Play" UriSource="pack://application:,,,/Note;component/Resources/Images/Play.png"/>
+    <BitmapImage x:Key="Record" UriSource="pack://application:,,,/Note;component/Resources/Images/Record.png"/>
+    <BitmapImage x:Key="Recorder" UriSource="pack://application:,,,/Note;component/Resources/Images/Recorder.png"/>
+    <BitmapImage x:Key="Recording" UriSource="pack://application:,,,/Note;component/Resources/Images/Recording.png"/>
+    <BitmapImage x:Key="Rotate" UriSource="pack://application:,,,/Note;component/Resources/Images/Rotate.png"/>
+    <BitmapImage x:Key="Scale" UriSource="pack://application:,,,/Note;component/Resources/Images/Scale.png"/>
+    <BitmapImage x:Key="SelectMode" UriSource="pack://application:,,,/Note;component/Resources/Images/SelectMode.png"/>
+    <BitmapImage x:Key="SelectModeSelected" UriSource="pack://application:,,,/Note;component/Resources/Images/SelectModeSelected.png"/>
+    <BitmapImage x:Key="Share" UriSource="pack://application:,,,/Note;component/Resources/Images/Share.png"/>
+    <BitmapImage x:Key="ShareSelected" UriSource="pack://application:,,,/Note;component/Resources/Images/ShareSelected.png"/>
+    <BitmapImage x:Key="SmartPen" UriSource="pack://application:,,,/Note;component/Resources/Images/SmartPen.png"/>
+    <BitmapImage x:Key="SmartPenSelected" UriSource="pack://application:,,,/Note;component/Resources/Images/SmartPenSelected.png"/>
+    <BitmapImage x:Key="Stop" UriSource="pack://application:,,,/Note;component/Resources/Images/Stop.png"/>
+    <BitmapImage x:Key="Toggle" UriSource="pack://application:,,,/Note;component/Resources/Images/Toggle.png"/>
+    <BitmapImage x:Key="Toggled" UriSource="pack://application:,,,/Note;component/Resources/Images/Toggled.png"/>
+    <BitmapImage x:Key="Undo" UriSource="pack://application:,,,/Note;component/Resources/Images/Undo.png"/>
+    <BitmapImage x:Key="PenPopup" UriSource="pack://application:,,,/Note;component/Resources/Images/PenPopup.png"/>
+    <BitmapImage x:Key="EraserPopup" UriSource="pack://application:,,,/Note;component/Resources/Images/EraserPopup.png"/>
+    <BitmapImage x:Key="MorePopup" UriSource="pack://application:,,,/Note;component/Resources/Images/MorePopup.png"/>
+    <BitmapImage x:Key="RecorderPopup" UriSource="pack://application:,,,/Note;component/Resources/Images/RecorderPopup.png"/>
+    <BitmapImage x:Key="ExportPopup" UriSource="pack://application:,,,/Note;component/Resources/Images/ExportPopup.png"/>
+    <BitmapImage x:Key="ImageButton" UriSource="pack://application:,,,/Note;component/Resources/Images/ImageButton.png"/>
+    <BitmapImage x:Key="PDFButton" UriSource="pack://application:,,,/Note;component/Resources/Images/PDFButton.png"/>
+    <BitmapImage x:Key="SaveToDesktop" UriSource="pack://application:,,,/Note;component/Resources/Images/SaveToDesktop.png"/>
+    <BitmapImage x:Key="WindowsShared" UriSource="pack://application:,,,/Note;component/Resources/Images/WindowsShared.png"/>
+    <BitmapImage x:Key="RecorderButton" UriSource="pack://application:,,,/Note;component/Resources/Images/RecorderButton.png"/>
+    <BitmapImage x:Key="RecognizePopup" UriSource="pack://application:,,,/Note;component/Resources/Images/RecognizePopup.png"/>
+    <BitmapImage x:Key="TranslateButton" UriSource="pack://application:,,,/Note;component/Resources/Images/TranslateButton.png"/>
+    <BitmapImage x:Key="ClearAllButton" UriSource="pack://application:,,,/Note;component/Resources/Images/ClearAllButton.png"/>
+    <BitmapImage x:Key="ExportAudioButton" UriSource="pack://application:,,,/Note;component/Resources/Images/ExportAudioButton.png"/>
+    <BitmapImage x:Key="ClearAllIcon" UriSource="pack://application:,,,/Note;component/Resources/Images/ClearAllIcon.png"/>
+    <BitmapImage x:Key="TextRecognize1" UriSource="pack://application:,,,/Note;component/Resources/Images/TextRecognize1.png"/>
+    <BitmapImage x:Key="TextRecognize2" UriSource="pack://application:,,,/Note;component/Resources/Images/TextRecognize2.png"/>
+    <BitmapImage x:Key="DropDownButton" UriSource="pack://application:,,,/Note;component/Resources/Images/ComboxDropDownButton.png"/>
+
+    <BitmapImage x:Key="AudioBar" UriSource="pack://application:,,,/Note;component/Resources/AudioImage/AudioBar.png"/>
+    <BitmapImage x:Key="DeleteAudio" UriSource="pack://application:,,,/Note;component/Resources/AudioImage/delete.png"/>
+    <BitmapImage x:Key="AudioEdit" UriSource="pack://application:,,,/Note;component/Resources/AudioImage/edit.png"/>
+    <BitmapImage x:Key="ExportAudio" UriSource="pack://application:,,,/Note;component/Resources/AudioImage/export.png"/>
+    <BitmapImage x:Key="PlayAudio" UriSource="pack://application:,,,/Note;component/Resources/AudioImage/play.png"/>
+    <BitmapImage x:Key="StopAudio" UriSource="pack://application:,,,/Note;component/Resources/AudioImage/stop.png"/>
+    <BitmapImage x:Key="PopupRecorder" UriSource="pack://application:,,,/Note;component/Resources/AudioImage/RecorderPopup.png"/>
+
+    <BitmapImage x:Key="CloseWindow" UriSource="pack://application:,,,/Note;component/Resources/ExportImage/Close.png"/>
+    <BitmapImage x:Key="ExportToDesktop" UriSource="pack://application:,,,/Note;component/Resources/ExportImage/ExportToDesktop.png"/>
+    <BitmapImage x:Key="ExportDesktopHover" UriSource="pack://application:,,,/Note;component/Resources/ExportImage/ExportDesktopHover.png"/>
+    <BitmapImage x:Key="PopupExport" UriSource="pack://application:,,,/Note;component/Resources/ExportImage/ExportPopup.png"/>
+    <BitmapImage x:Key="ExportImage" UriSource="pack://application:,,,/Note;component/Resources/ExportImage/Image.png"/>
+    <BitmapImage x:Key="ExportPdf" UriSource="pack://application:,,,/Note;component/Resources/ExportImage/pdf.png"/>
+    <BitmapImage x:Key="ExportImageHover" UriSource="pack://application:,,,/Note;component/Resources/ExportImage/ImageHover.png"/>
+    <BitmapImage x:Key="MaximizeWindow" UriSource="pack://application:,,,/Note;component/Resources/ExportImage/Max.png"/>
+    <BitmapImage x:Key="MiniminzeWindow" UriSource="pack://application:,,,/Note;component/Resources/ExportImage/Min.png"/>
+    <BitmapImage x:Key="ShareNoteHover" UriSource="pack://application:,,,/Note;component/Resources/ExportImage/Shared.png"/>
+    <BitmapImage x:Key="ShareNote" UriSource="pack://application:,,,/Note;component/Resources/ExportImage/share3.png"/>
+    <BitmapImage x:Key="EditHover" UriSource="pack://application:,,,/Note;component/Resources/AudioImage/edit_hover.png"/>
+    <BitmapImage x:Key="HoverMore" UriSource="pack://application:,,,/Note;component/Resources/AudioImage/more_hover.png"/>
+
+    <BitmapImage x:Key="pdfNormal" UriSource="pack://application:,,,/Note;component/Resources/ExportImage/pdfNormal.png"/>
+    <BitmapImage x:Key="ImportFile" UriSource="pack://application:,,,/Note;component/Resources/ExportImage/ImportFile.png"/>
+    <BitmapImage x:Key="ImportFileHover" UriSource="pack://application:,,,/Note;component/Resources/ExportImage/ImportFileHover.png"/>
+
+    <BitmapImage x:Key="Copy" UriSource="pack://application:,,,/Note;component/Resources/OcrImage/copy.png"/>
+    <BitmapImage x:Key="CopyHover" UriSource="pack://application:,,,/Note;component/Resources/OcrImage/copyhover.png"/>
+
+    <BitmapImage x:Key="OcrBorder" UriSource="pack://application:,,,/Note;component/Resources/OcrImage/OrcBorder.png"/>
+    <BitmapImage x:Key="ToolBar" UriSource="pack://application:,,,/Note;component/Resources/OcrImage/toolbar.png"/>
+
+    <BitmapImage x:Key="Translate" UriSource="pack://application:,,,/Note;component/Resources/OcrImage/translate.png"/>
+    <BitmapImage x:Key="TranslateHover" UriSource="pack://application:,,,/Note;component/Resources/OcrImage/translatehover.png"/>
+    <BitmapImage x:Key="TranslateResultBorder" UriSource="pack://application:,,,/Note;component/Resources/OcrImage/translateresultborder.png"/>
+    <BitmapImage x:Key="TranslateWhite" UriSource="pack://application:,,,/Note;component/Resources/OcrImage/translatewhite.png"/>
+    <BitmapImage x:Key="TranslateWhiteHover" UriSource="pack://application:,,,/Note;component/Resources/OcrImage/translatewhitehover.png"/>
+
+</ResourceDictionary>

@@ -1,0 +1,13 @@
+﻿"F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\obj\x64\Release\ilc\in\DeviceId.dll"
+"F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\obj\x64\Release\ilc\in\DeviceId.Windows.dll"
+"F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\obj\x64\Release\ilc\in\DeviceId.Windows.Wmi.dll"
+"F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\obj\x64\Release\ilc\in\Microsoft.DotNet.PlatformAbstractions.dll"
+"F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\obj\x64\Release\ilc\in\Microsoft.Graphics.Canvas.winmd"
+"F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\obj\x64\Release\ilc\in\Microsoft.Toolkit.Win32.UI.XamlHost.winmd"
+"F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\obj\x64\Release\ilc\in\Newtonsoft.Json.dll"
+"F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\obj\x64\Release\ilc\in\Note.InkCanvasEx.exe"
+/Lib:"F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\obj\x64\Release\ilc\in"
+/Lib:"C:\Users\37095\.nuget\packages\runtime.win10-x64.microsoft.net.native.compiler\2.2.10-rel-29722-00\tools\x64\ilc\lib\Private"
+/WinMD:"F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\obj\x64\Release\ilc\in\WinMetadata\Windows.winmd"
+/RdXmlPath:"C:\Users\37095\.nuget\packages\microsoft.net.native.compiler\2.2.10-rel-29722-00\tools\LibraryXML"
+/RunOnlyPreDR

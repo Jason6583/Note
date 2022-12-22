@@ -1,0 +1,256 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Platforms>AnyCPU;x64</Platforms>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Note.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\AudioImage\AudioBar.png" />
+    <None Remove="Resources\AudioImage\delete.png" />
+    <None Remove="Resources\AudioImage\edit.png" />
+    <None Remove="Resources\AudioImage\edit_hover.png" />
+    <None Remove="Resources\AudioImage\export.png" />
+    <None Remove="Resources\AudioImage\more.png" />
+    <None Remove="Resources\AudioImage\more_hover.png" />
+    <None Remove="Resources\AudioImage\play.png" />
+    <None Remove="Resources\AudioImage\RecorderPopup.png" />
+    <None Remove="Resources\AudioImage\stop.png" />
+    <None Remove="Resources\AudioImage\stop_toolbar.png" />
+    <None Remove="Resources\ExportImage\Close.png" />
+    <None Remove="Resources\ExportImage\ExportDesktopHover.png" />
+    <None Remove="Resources\ExportImage\ExportPopup.png" />
+    <None Remove="Resources\ExportImage\ExportToDesktop.png" />
+    <None Remove="Resources\ExportImage\Image.png" />
+    <None Remove="Resources\ExportImage\ImageHover.png" />
+    <None Remove="Resources\ExportImage\ImportFile.png" />
+    <None Remove="Resources\ExportImage\ImportFileHover.png" />
+    <None Remove="Resources\ExportImage\Max.png" />
+    <None Remove="Resources\ExportImage\Min.png" />
+    <None Remove="Resources\ExportImage\pdf.png" />
+    <None Remove="Resources\ExportImage\pdfNormal.png" />
+    <None Remove="Resources\ExportImage\share3.png" />
+    <None Remove="Resources\ExportImage\Shared.png" />
+    <None Remove="Resources\Images\BallPen.png" />
+    <None Remove="Resources\Images\BallPenSelected.png" />
+    <None Remove="Resources\Images\CancelSelected.png" />
+    <None Remove="Resources\Images\ChangeBackground.png" />
+    <None Remove="Resources\Images\ClearAllButton.png" />
+    <None Remove="Resources\Images\ClearAllIcon.png" />
+    <None Remove="Resources\Images\Close.png" />
+    <None Remove="Resources\Images\CloseHover.png" />
+    <None Remove="Resources\Images\ComboxDropDownButton.png" />
+    <None Remove="Resources\Images\Cut.png" />
+    <None Remove="Resources\Images\CutSelected.png" />
+    <None Remove="Resources\Images\Delete.png" />
+    <None Remove="Resources\Images\EditAudio.png" />
+    <None Remove="Resources\Images\Eraser.png" />
+    <None Remove="Resources\Images\EraserPopup.png" />
+    <None Remove="Resources\Images\Erasing.png" />
+    <None Remove="Resources\Images\ExportAudioButton.png" />
+    <None Remove="Resources\Images\ExportPopup.png" />
+    <None Remove="Resources\Images\ImageButton.png" />
+    <None Remove="Resources\Images\InsertPicture.png" />
+    <None Remove="Resources\Images\Maximize.png" />
+    <None Remove="Resources\Images\MaximizeHover.png" />
+    <None Remove="Resources\Images\Minimize.png" />
+    <None Remove="Resources\Images\MinimizeHover.png" />
+    <None Remove="Resources\Images\More.png" />
+    <None Remove="Resources\Images\MoreHover.png" />
+    <None Remove="Resources\Images\MorePopup.png" />
+    <None Remove="Resources\Images\ParkPen.png" />
+    <None Remove="Resources\Images\ParkPenSelected.png" />
+    <None Remove="Resources\Images\PDFButton.png" />
+    <None Remove="Resources\Images\Pen.png" />
+    <None Remove="Resources\Images\Pencil.png" />
+    <None Remove="Resources\Images\PencilSelected.png" />
+    <None Remove="Resources\Images\PenPopup.png" />
+    <None Remove="Resources\Images\PenSelected.png" />
+    <None Remove="Resources\Images\Play.png" />
+    <None Remove="Resources\Images\RecognizePopup.png" />
+    <None Remove="Resources\Images\Record.png" />
+    <None Remove="Resources\Images\Recorder.png" />
+    <None Remove="Resources\Images\RecorderButton.png" />
+    <None Remove="Resources\Images\RecorderPopup.png" />
+    <None Remove="Resources\Images\Recording.png" />
+    <None Remove="Resources\Images\Rotate.png" />
+    <None Remove="Resources\Images\SaveToDesktop.png" />
+    <None Remove="Resources\Images\Scale.png" />
+    <None Remove="Resources\Images\SelectMode.png" />
+    <None Remove="Resources\Images\SelectModeSelected.png" />
+    <None Remove="Resources\Images\Share.png" />
+    <None Remove="Resources\Images\ShareSelected.png" />
+    <None Remove="Resources\Images\SmartPen.png" />
+    <None Remove="Resources\Images\SmartPenSelected.png" />
+    <None Remove="Resources\Images\Stop.png" />
+    <None Remove="Resources\Images\TextRecognize1.png" />
+    <None Remove="Resources\Images\TextRecognize2.png" />
+    <None Remove="Resources\Images\Toggle.png" />
+    <None Remove="Resources\Images\Toggled.png" />
+    <None Remove="Resources\Images\TranslateButton.png" />
+    <None Remove="Resources\Images\Undo.png" />
+    <None Remove="Resources\Images\WindowsShared.png" />
+    <None Remove="Resources\OcrImage\copy.png" />
+    <None Remove="Resources\OcrImage\copyhover.png" />
+    <None Remove="Resources\OcrImage\OrcBorder.png" />
+    <None Remove="Resources\OcrImage\toolbar.png" />
+    <None Remove="Resources\OcrImage\translate.png" />
+    <None Remove="Resources\OcrImage\translatehover.png" />
+    <None Remove="Resources\OcrImage\translateresultBorder.png" />
+    <None Remove="Resources\OcrImage\translatewhite.png" />
+    <None Remove="Resources\OcrImage\translatewhiteHover.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Note.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\AudioImage\AudioBar.png" />
+    <Resource Include="Resources\AudioImage\delete.png" />
+    <Resource Include="Resources\AudioImage\edit.png" />
+    <Resource Include="Resources\AudioImage\edit_hover.png" />
+    <Resource Include="Resources\AudioImage\export.png" />
+    <Resource Include="Resources\AudioImage\more.png" />
+    <Resource Include="Resources\AudioImage\more_hover.png" />
+    <Resource Include="Resources\AudioImage\play.png" />
+    <Resource Include="Resources\AudioImage\RecorderPopup.png" />
+    <Resource Include="Resources\AudioImage\stop.png" />
+    <Resource Include="Resources\AudioImage\stop_toolbar.png" />
+    <Resource Include="Resources\ExportImage\Close.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\ExportImage\ExportDesktopHover.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\ExportImage\ExportPopup.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\ExportImage\ExportToDesktop.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\ExportImage\Image.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\ExportImage\ImageHover.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\ExportImage\ImportFile.png" />
+    <Resource Include="Resources\ExportImage\ImportFileHover.png" />
+    <Resource Include="Resources\ExportImage\Max.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\ExportImage\Min.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\ExportImage\pdf.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\ExportImage\pdfNormal.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\ExportImage\share3.png" />
+    <Resource Include="Resources\ExportImage\Shared.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Images\Recorder.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DeviceId" Version="6.2.0" />
+    <PackageReference Include="DeviceId.Windows" Version="6.2.0" />
+    <PackageReference Include="DeviceId.Windows.Wmi" Version="6.2.0" />
+    <PackageReference Include="Microsoft.Toolkit.Wpf.UI.XamlHost" Version="6.1.2" />
+    <PackageReference Include="NAudio" Version="2.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="PdfSharp" Version="1.50.5147" />
+    <PackageReference Include="System.Management" Version="6.0.0" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Note.InkCanvasEx\Note.InkCanvasEx.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Images\BallPen.png" />
+    <Resource Include="Resources\Images\BallPenSelected.png" />
+    <Resource Include="Resources\Images\CancelSelected.png" />
+    <Resource Include="Resources\Images\ChangeBackground.png" />
+    <Resource Include="Resources\Images\ClearAllButton.png" />
+    <Resource Include="Resources\Images\ClearAllIcon.png" />
+    <Resource Include="Resources\Images\Close.png" />
+    <Resource Include="Resources\Images\CloseHover.png" />
+    <Resource Include="Resources\Images\ComboxDropDownButton.png" />
+    <Resource Include="Resources\Images\Cut.png" />
+    <Resource Include="Resources\Images\CutSelected.png" />
+    <Resource Include="Resources\Images\Delete.png" />
+    <Resource Include="Resources\Images\EditAudio.png" />
+    <Resource Include="Resources\Images\Eraser.png" />
+    <Resource Include="Resources\Images\EraserPopup.png" />
+    <Resource Include="Resources\Images\Erasing.png" />
+    <Resource Include="Resources\Images\ExportAudioButton.png" />
+    <Resource Include="Resources\Images\ExportPopup.png" />
+    <Resource Include="Resources\Images\ImageButton.png" />
+    <Resource Include="Resources\Images\InsertPicture.png" />
+    <Resource Include="Resources\Images\Maximize.png" />
+    <Resource Include="Resources\Images\MaximizeHover.png" />
+    <Resource Include="Resources\Images\Minimize.png" />
+    <Resource Include="Resources\Images\MinimizeHover.png" />
+    <Resource Include="Resources\Images\More.png" />
+    <Resource Include="Resources\Images\MoreHover.png" />
+    <Resource Include="Resources\Images\MorePopup.png" />
+    <Resource Include="Resources\Images\ParkPen.png" />
+    <Resource Include="Resources\Images\ParkPenSelected.png" />
+    <Resource Include="Resources\Images\PDFButton.png" />
+    <Resource Include="Resources\Images\Pen.png" />
+    <Resource Include="Resources\Images\Pencil.png" />
+    <Resource Include="Resources\Images\PencilSelected.png" />
+    <Resource Include="Resources\Images\PenPopup.png" />
+    <Resource Include="Resources\Images\PenSelected.png" />
+    <Resource Include="Resources\Images\Play.png" />
+    <Resource Include="Resources\Images\RecognizePopup.png" />
+    <Resource Include="Resources\Images\Record.png" />
+    <Resource Include="Resources\Images\RecorderButton.png" />
+    <Resource Include="Resources\Images\RecorderPopup.png" />
+    <Resource Include="Resources\Images\Recording.png" />
+    <Resource Include="Resources\Images\Rotate.png" />
+    <Resource Include="Resources\Images\SaveToDesktop.png" />
+    <Resource Include="Resources\Images\Scale.png" />
+    <Resource Include="Resources\Images\SelectMode.png" />
+    <Resource Include="Resources\Images\SelectModeSelected.png" />
+    <Resource Include="Resources\Images\Share.png" />
+    <Resource Include="Resources\Images\ShareSelected.png" />
+    <Resource Include="Resources\Images\SmartPen.png" />
+    <Resource Include="Resources\Images\SmartPenSelected.png" />
+    <Resource Include="Resources\Images\Stop.png" />
+    <Resource Include="Resources\Images\TextRecognize1.png" />
+    <Resource Include="Resources\Images\TextRecognize2.png" />
+    <Resource Include="Resources\Images\Toggle.png" />
+    <Resource Include="Resources\Images\Toggled.png" />
+    <Resource Include="Resources\Images\TranslateButton.png" />
+    <Resource Include="Resources\Images\Undo.png" />
+    <Resource Include="Resources\Images\WindowsShared.png" />
+    <Resource Include="Resources\OcrImage\copy.png" />
+    <Resource Include="Resources\OcrImage\copyhover.png" />
+    <Resource Include="Resources\OcrImage\OrcBorder.png" />
+    <Resource Include="Resources\OcrImage\toolbar.png" />
+    <Resource Include="Resources\OcrImage\translate.png" />
+    <Resource Include="Resources\OcrImage\translatehover.png" />
+    <Resource Include="Resources\OcrImage\translateresultBorder.png" />
+    <Resource Include="Resources\OcrImage\translatewhite.png" />
+    <Resource Include="Resources\OcrImage\translatewhiteHover.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="Microsoft.VCRTForwarders.140" Version="1.0.7" />
+  </ItemGroup>
+
+</Project>

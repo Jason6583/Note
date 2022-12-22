@@ -1,0 +1,219 @@
+﻿<UserControl x:Class="Note.InkCanvasEx.InkCanvasEx"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:canvas="using:Microsoft.Graphics.Canvas.UI.Xaml"
+    xmlns:controls="using:Note.InkCanvasEx.Controls"
+    xmlns:converters="using:Note.InkCanvasEx.Converters"
+    xmlns:local="using:Note.InkCanvasEx">
+    <UserControl.Resources>
+        <converters:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+        <converters:InvertingBooleanToVisibilityConverters x:Key="InvertingBooleanToVisibilityConverters"/>
+    </UserControl.Resources>
+    <Grid x:Name="mainView">
+        <ScrollViewer x:Name="scrollViewer" 
+                      ScrollViewer.VerticalScrollBarVisibility="Auto"
+                      ScrollViewer.HorizontalScrollBarVisibility="Auto"
+                      ZoomMode="Enabled">
+            <Grid Width="{Binding ElementName=inkCanvas, Path=Width}"
+                  Height="{Binding ElementName=inkCanvas, Path=Height}">
+                <canvas:CanvasControl x:Name="imageCanvas" 
+                                      Width="{Binding ElementName=inkCanvas, Path=Width}"
+                                      Height="{Binding ElementName=inkCanvas, Path=Height}"/>
+                <InkCanvas x:Name="inkCanvas" 
+                           HorizontalAlignment="Stretch"
+                           VerticalAlignment="Stretch"
+                           ManipulationMode="Scale"/>
+                <Canvas x:Name="shapeCanvas"
+                        Width="{Binding ElementName=inkCanvas, Path=Width}"
+                        Height="{Binding ElementName=inkCanvas, Path=Height}"/>
+                <Canvas x:Name="selectionCanvas"
+                        Width="{Binding ElementName=inkCanvas, Path=Width}"
+                        Height="{Binding ElementName=inkCanvas, Path=Height}"/>
+
+            </Grid>
+        </ScrollViewer>
+        <Grid Width="575" 
+              Height="75" 
+              VerticalAlignment="Bottom" 
+              HorizontalAlignment="Center" 
+              Margin="15" >
+            <Image Source="ms-appx:///Assets/border3.png" Width="575" Height="75"/>
+            <StackPanel Orientation="Horizontal" 
+                        Width="575" 
+                        Height="75">
+                <controls:ImageButton 
+                    Margin="10,0,0,0" 
+                    Width="50" 
+                    Height="50" 
+                    Command="{Binding InkCommand}"
+                    CheckedImage="{StaticResource InkChecked}"   
+                    NormalImage="{StaticResource Ink}" 
+                    VerticalAlignment="Center">
+                    <controls:ImageButton.Flyout>
+                        <Flyout>
+                            <Grid Width="300" Height="348">
+                                <Grid.Background>
+                                    <ImageBrush ImageSource="ms-appx:///Assets/pop3.png"/>
+                                </Grid.Background>
+                                <controls:PenControl 
+                                    Width="255" 
+                                    Margin="10,0,0,0" 
+                                    VerticalAlignment="Center" 
+                                    HorizontalAlignment="Center"/>
+                            </Grid>
+                        </Flyout>
+                    </controls:ImageButton.Flyout>
+                </controls:ImageButton>
+                
+                <controls:ImageToggleButton 
+                    Width="50" 
+                    Height="50" 
+                    Margin="0"
+                    IsChecked="{Binding InkToText,Mode=TwoWay}"
+                    CheckedImage="{StaticResource TextRegChecked}" 
+                    NormalImage="{StaticResource TextReg}" 
+                    VerticalAlignment="Center"/>
+                <controls:ImageToggleButton 
+                    Width="50" 
+                    Height="50" 
+                    Margin="0" 
+                    IsChecked="{Binding InkToShape,Mode=TwoWay}"
+                    CheckedImage="{StaticResource ShapeRegChecked}" 
+                    NormalImage="{StaticResource ShapeReg}" 
+                    VerticalAlignment="Center"/>
+                <!--橡皮-->
+                <controls:ImageButton 
+                    Width="50" 
+                    Height="50" 
+                    Margin="0"
+                    Command="{Binding EraserCommand}"
+                    CheckedImage="{StaticResource EraserChecked}" 
+                    NormalImage="{StaticResource Eraser}" 
+                    VerticalAlignment="Center">
+                    <controls:ImageButton.Flyout>
+                        <Flyout>
+                            <Grid Width="300" Height="170">
+                                <Grid.Background>
+                                    <ImageBrush ImageSource="ms-appx:///Assets/eraser_popup.png"/>
+                                </Grid.Background>
+                                <controls:EraserControl 
+                                    Margin="10,0,0,0" 
+                                    VerticalAlignment="Center" 
+                                    HorizontalAlignment="Center"/>
+                            </Grid>
+                        </Flyout>
+                    </controls:ImageButton.Flyout>
+                </controls:ImageButton>
+                <controls:ImageToggleButton 
+                    Width="50" 
+                    Height="50" 
+                    Margin="0" 
+                    IsChecked="{Binding IsSelection,Mode=TwoWay}"
+                    CheckedImage="{StaticResource SelectChecked}" 
+                    NormalImage="{StaticResource Select}" 
+                    VerticalAlignment="Center"/>
+                <controls:ImageButton 
+                    Width="50" 
+                    Height="50" 
+                    Margin="0"
+                    Command="{Binding ScreenShotCommand}"
+                    CheckedImage="{StaticResource ScreenShotChecked}" 
+                    NormalImage="{StaticResource ScreenShot}" 
+                    VerticalAlignment="Center"/>
+                <controls:ImageButton 
+                    Width="50" 
+                    Height="50" 
+                    Margin="0"
+                    Command="{Binding InsertImageCommand}"
+                    CheckedImage="{StaticResource InsertImageChecked}" 
+                    NormalImage="{StaticResource InsertImage}" 
+                    VerticalAlignment="Center"/>
+                <controls:ImageButton 
+                    Width="50" 
+                    Height="50" 
+                    Margin="0"   
+                    Command="{Binding ChangeBackgroundCommand}"
+                    CheckedImage="{StaticResource ChangeBackgroundChecked}" 
+                    NormalImage="{StaticResource ChangeBackground}" 
+                    VerticalAlignment="Center">
+                    <controls:ImageButton.Flyout>
+                        <Flyout>
+                            <Grid Width="215" Height="150">
+                                <Grid.Background>
+                                    <ImageBrush ImageSource="ms-appx:///Assets/more_popup.png"/>
+                                </Grid.Background>
+                                <controls:MoreColors 
+                                    Width="170" 
+                                    VerticalAlignment="Center"
+                                    HorizontalAlignment="Center"/>
+                            </Grid>
+                        </Flyout>
+                    </controls:ImageButton.Flyout>
+                </controls:ImageButton>
+                <controls:ImageButton 
+                    Width="50" 
+                    Height="50" 
+                    Margin="0"
+                    Command="{Binding RecordCommand}"
+                    Visibility="{Binding IsRecording,Converter={StaticResource InvertingBooleanToVisibilityConverters}}"
+                    CheckedImage="{StaticResource RecorderChecked}"                                             
+                    NormalImage="{StaticResource Recorder}" 
+                    VerticalAlignment="Center">
+                    <controls:ImageButton.Flyout>
+                        <Flyout>
+                            <Grid Width="85" Height="58">
+                                <Grid.Background>
+                                    <ImageBrush ImageSource="ms-appx:///Assets/stop_popup.png"/>
+                                </Grid.Background>
+                                <TextBlock Text="{Binding AudioLength}"  
+                                           Margin="0,15,0,0"
+                                           VerticalAlignment="Top"
+                                           HorizontalAlignment="Center"
+                                           FontSize="12" Foreground="#4A4B4C"/>
+                            </Grid>
+                        </Flyout>
+                    </controls:ImageButton.Flyout>
+                </controls:ImageButton>
+                <controls:ImageButton Width="50" Height="50" Margin="0"  
+                                      Command="{Binding StopCommand}"
+                    Visibility="{Binding IsRecording,Converter={StaticResource BooleanToVisibilityConverter}}"                  
+                    CheckedImage="{StaticResource StopRecord}" 
+                    NormalImage="{StaticResource StopRecord}" VerticalAlignment="Center">
+                    <controls:ImageButton.Flyout>
+                        <Flyout>
+                            <Grid Width="85" Height="58">
+                                <Grid.Background>
+                                    <ImageBrush ImageSource="ms-appx:///Assets/stop_popup.png"/>
+                                </Grid.Background>
+                                <TextBlock Text="{Binding AudioLength}" 
+                                           VerticalAlignment="Center"
+                                           HorizontalAlignment="Center"
+                                           FontSize="12" Foreground="#4A4B4C"/>
+                            </Grid>
+                        </Flyout>
+                    </controls:ImageButton.Flyout>
+                </controls:ImageButton>
+
+                <controls:ImageButton Width="50" Height="50" Margin="0"
+                                      Command="{Binding UndoCommand}"
+                    CheckedImage="{StaticResource UndoChecked}" 
+                    NormalImage="{StaticResource Undo}" VerticalAlignment="Center"/>
+                <controls:ImageButton Width="50" Height="50" Margin="0"     
+                    CheckedImage="{StaticResource MoreChecked}" 
+                    NormalImage="{StaticResource More}" VerticalAlignment="Center">
+                    <controls:ImageButton.Flyout>
+                        <Flyout>
+                            <Grid Width="165" Height="67">
+                                <Grid.Background>
+                                    <ImageBrush ImageSource="ms-appx:///Assets/more_popup.png"/>
+                                </Grid.Background>
+                                <controls:MoreControl VerticalAlignment="Center"
+                                                      HorizontalAlignment="Center"/>
+                            </Grid>
+                        </Flyout>
+                    </controls:ImageButton.Flyout>
+                </controls:ImageButton>
+            </StackPanel>
+        </Grid>        
+    </Grid>
+</UserControl>

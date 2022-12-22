@@ -1,0 +1,136 @@
+﻿<UserControl x:Class="Note.Views.AudioPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:controls="clr-namespace:Note.Controls"
+             xmlns:converters="clr-namespace:Note.Converters"
+             xmlns:views="clr-namespace:Note.Views">
+    <UserControl.Resources>
+        <converters:InvertingBooleanToVisibilityConverters x:Key="InvertingBooleanToVisibilityConverters"/>
+        <converters:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+    </UserControl.Resources>
+    <Grid Width="280" Height="30">
+        <Grid.Background>
+            <ImageBrush ImageSource="{StaticResource AudioBar}"/>
+        </Grid.Background>
+        <StackPanel VerticalAlignment="Center" Orientation="Horizontal">
+            <Grid Margin="10,0,5,0" HorizontalAlignment="Left">
+                <controls:ImageButton Image="{StaticResource PlayAudio}" 
+                                      HoverImage="{StaticResource StopAudio}"
+                                      Width="14" Height="14"
+                                      Command="{Binding InkStrokeAudioService.PlayCommand}"
+                                      Visibility="{Binding InkStrokeAudioService.IsPlaying,Converter={StaticResource InvertingBooleanToVisibilityConverters}}"/>
+                <controls:ImageButton Image="{StaticResource Stop}" 
+                                      Width="14" Height="14" 
+                                      HoverImage="{StaticResource StopAudio}"
+                                      Command="{Binding InkStrokeAudioService.StopCommand}"
+                                      Visibility="{Binding InkStrokeAudioService.IsPlaying,Converter={StaticResource BooleanToVisibilityConverter}}"/>
+            </Grid>
+            <Slider Margin="5,0,5,0" Style="{StaticResource Note.SliderStyle}"
+                    Width="110" Height="22" 
+                    VerticalAlignment="Center"
+                    Value="{Binding InkStrokeAudioService.PlayerPosition,Mode=TwoWay}" 
+                    Maximum="{Binding InkStrokeAudioService.Maximum}" 
+                    Minimum="{Binding InkStrokeAudioService.Minimum}"/>
+            
+            <TextBlock Margin="5,0,3,0" Text="{Binding InkStrokeAudioService.PlayerTimeTip}" 
+                       VerticalAlignment="Center" Width="70"
+                       Foreground="#4A4B4C" FontSize="12"/>
+
+            <controls:ImageToggleButton Margin="3,0,3,0" 
+                                        IsChecked="{Binding InkStrokeAudioService.IsGrayChecked,Mode=TwoWay}"
+                                            Style="{StaticResource Note.SwitchButton}" 
+                                            Image="{StaticResource EditAudio}"
+                                            HoverImage="{StaticResource EditHover}" 
+                                            Width="14" 
+                                            Height="14"/>
+
+            <controls:ImageToggleButton x:Name="MoreBtn" 
+                                        Image="{StaticResource More}" 
+                                        Margin="3,0,3,0" 
+                                        HoverImage="{StaticResource MoreHover}" 
+                                        Width="14" Height="14"/>
+
+            <Popup IsOpen="{Binding ElementName=MoreBtn,Path=IsChecked,Mode=TwoWay}"
+                   StaysOpen="False" Grid.Row="1" 
+                   PlacementTarget="{Binding ElementName=MoreBtn}" 
+                   Placement="Bottom"
+                   AllowsTransparency="True" 
+                   HorizontalOffset="-60">
+                <Grid Width="144" Height="139">
+                    <Image Source="{StaticResource PopupRecorder}"/>
+                    <Grid Margin="21.5,26,23.5,28.5">
+                        <controls:ImageButton VerticalAlignment="Top" 
+                                  Image="{StaticResource ExportAudio}" 
+                                  HoverImage="{StaticResource ExportAudio}"
+                                  Width="108" Height="50"
+                                  Command="{Binding InkStrokeAudioService.ExportCommand}"/>
+                        <controls:ImageButton VerticalAlignment="Bottom" 
+                                  Image="{StaticResource DeleteAudio}" 
+                                              HoverImage="{StaticResource DeleteAudio}" 
+                                              Width="108" Height="50"
+                                  Command="{Binding InkStrokeAudioService.DeleteCommand}"/>
+                    </Grid>
+                </Grid>
+            </Popup>
+        </StackPanel>
+        <!--<StackPanel Orientation="Horizontal" Background="#FCFCFC" Width="280" Height="30">
+            <Grid Margin="10,0,5,0">
+                <controls:ImageButton Image="{StaticResource Play}" 
+                                      HoverImage="{StaticResource Play}" 
+                                      Width="14" Height="14"
+                                      Command="{Binding InkStrokeAudioService.PlayCommand}"
+                                      Visibility="{Binding InkStrokeAudioService.IsPlaying,Converter={StaticResource InvertingBooleanToVisibilityConverters}}"/>
+                <controls:ImageButton Image="{StaticResource Stop}" 
+                                      Width="14" Height="14" 
+                                      HoverImage="{StaticResource Stop}"
+                                      Command="{Binding InkStrokeAudioService.StopCommand}"
+                                      Visibility="{Binding InkStrokeAudioService.IsPlaying,Converter={StaticResource BooleanToVisibilityConverter}}"/>
+            </Grid>
+
+            <Slider Margin="5,0,5,0" Style="{StaticResource Note.SliderStyle}"
+                    Width="110" Height="22" 
+                    Value="{Binding InkStrokeAudioService.PlayerPosition,Mode=TwoWay}" 
+                    Maximum="{Binding InkStrokeAudioService.Maximum}" Minimum="{Binding InkStrokeAudioService.Minimum}"/>
+
+            <TextBlock Margin="5,0,3,0" Text="{Binding InkStrokeAudioService.PlayerTimeTip}" 
+                       VerticalAlignment="Center" 
+                       Foreground="#4A4B4C"/>
+
+            <controls:ImageToggleButton Margin="3,0,3,0" IsChecked="{Binding InkStrokeAudioService.IsGrayChecked,Mode=TwoWay}"
+                                            Style="{StaticResource Note.SwitchButton}" 
+                                            Image="{StaticResource Toggle}"
+                                            HoverImage="{StaticResource Toggled}" 
+                                            Width="21" 
+                                            Height="21"/>
+            
+            <controls:ImageToggleButton x:Name="MoreBtn" 
+                                        Image="{StaticResource More}" 
+                                        Margin="3,0,3,0" 
+                                        HoverImage="{StaticResource MoreHover}" 
+                                        Width="14" Height="14"/>
+            
+            <Popup IsOpen="{Binding ElementName=MoreBtn,Path=IsChecked,Mode=TwoWay}"
+                   StaysOpen="False" Grid.Row="1" 
+                   PlacementTarget="{Binding ElementName=MoreBtn}" 
+                   Placement="Bottom"
+                   AllowsTransparency="True" 
+                   HorizontalOffset="-60">
+                <Grid Width="133" Height="124">
+                    <Image Source="{StaticResource RecorderPopup}"/>
+                    <Grid Margin="21.5,26,23.5,28.5">
+                        <controls:ImageButton VerticalAlignment="Top" 
+                                  Image="{StaticResource RecorderButton}" 
+                                  Width="88" Height="29"
+                                  Content="导出录音" FontSize="10" Foreground="#4A4B4C"
+                                  Command="{Binding InkStrokeAudioService.ExportCommand}"/>
+                        <controls:ImageButton VerticalAlignment="Bottom" 
+                                  Image="{StaticResource RecorderButton}" Width="88" Height="29"
+                                  Content="删除录音"
+                                  FontSize="10" Foreground="#4A4B4C"
+                                  Command="{Binding InkStrokeAudioService.DeleteCommand}"/>
+                    </Grid>
+                </Grid>
+            </Popup>
+        </StackPanel>-->
+    </Grid>
+</UserControl>

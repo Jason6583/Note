@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="Note.Views.MoreView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:controls="clr-namespace:Note.Controls">
+    <Grid Width="133" Height="138">
+        <Image Source="{StaticResource MorePopup}"/>
+        <Grid Margin="23,29.5,23.5,26">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="14"/>
+                <RowDefinition Height="42"/>
+                <RowDefinition Height="0.5"/>
+                <RowDefinition Height="26"/>
+            </Grid.RowDefinitions>
+
+            <controls:ImageButton Style="{StaticResource Note.IconButton}" VerticalAlignment="Top" Image="{StaticResource InsertPicture}" Height="14"
+                                  Content="插入图片" FontSize="10" Foreground="#4A4B4C"
+                                  Command="{Binding InsertImageCommand}"/>
+            <controls:ImageButton Grid.Row="1" Style="{StaticResource Note.IconButton}" Margin="0,15,0,13" Image="{StaticResource ChangeBackground}" Height="14"
+                                  Content="修改笔记背景" FontSize="10" Foreground="#4A4B4C"
+                                  Command="{Binding ChangeBackColorCommand}"/>
+            <Rectangle Grid.Row="2" Fill="#E8E8E8" Height="0.5"/>
+
+            <StackPanel Orientation="Horizontal" Grid.Row="3" VerticalAlignment="Bottom">
+                <TextBlock Text="手指书写" Foreground="#4A4B4C" VerticalAlignment="Center"/>
+                <controls:ImageToggleButton Margin="20,0,0,0" IsChecked="{Binding EnableHandWriting,Mode=TwoWay}"
+                                            Style="{StaticResource Note.SwitchButton}" 
+                                            Image="{StaticResource Toggle}"
+                                            HoverImage="{StaticResource Toggled}" 
+                                            Width="14" 
+                                            Height="14"/>
+            </StackPanel>
+
+        </Grid>
+    </Grid>
+</UserControl>

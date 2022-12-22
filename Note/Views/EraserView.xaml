@@ -1,0 +1,51 @@
+﻿<UserControl x:Class="Note.Views.EraserView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid Width="239" Height="159">
+        <Image Source="{StaticResource EraserPopup}"/>
+        <Grid Margin="27.5,27.5,25,27.5">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBlock Text="粗细" Foreground="#4A4B4C" VerticalAlignment="Center"/>
+            <ListBox x:Name="EraserSizeList" Grid.Row="1" Background="Transparent" Margin="-8,0,0,0"
+                     HorizontalAlignment="Left" ItemsSource="{Binding EraserSizes}" SelectedItem="{Binding SelectedEraserSize}"
+                     ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+                     ScrollViewer.VerticalScrollBarVisibility="Hidden" BorderThickness="0">
+                <ListBox.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <UniformGrid IsItemsHost="True" Columns="5" HorizontalAlignment="Stretch"/>
+                    </ItemsPanelTemplate>
+                </ListBox.ItemsPanel>
+                <ListBox.ItemContainerStyle>
+                    <Style TargetType="{x:Type ListBoxItem}">
+                        <Setter Property="Margin" Value="8,0,8,0"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type ListBoxItem}">
+                                    <Border x:Name="border" Width="24" Height="24" CornerRadius="24" Grid.Row="1" 
+                                        HorizontalAlignment="Center" VerticalAlignment="Center" Background="#FCFCFC">
+                                        <Ellipse Width="{Binding IconSize}" Height="{Binding IconSize}" Fill="#000000" VerticalAlignment="Center" HorizontalAlignment="Center"
+                                        StrokeThickness="0"/>
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsSelected" Value="True">
+                                            <Setter TargetName="border" Property="BorderThickness" Value="1"/>
+                                            <Setter TargetName="border" Property="BorderBrush" Value="#5E75FD"/>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </ListBox.ItemContainerStyle>
+            </ListBox>
+
+            <Button Margin="0,10,0,0" Style="{StaticResource Note.ClearButton}" Grid.Row="2" HorizontalAlignment="Center"
+                    VerticalAlignment="Center" Command="{Binding ClearCommand}"/>
+
+        </Grid>
+    </Grid>
+</UserControl>

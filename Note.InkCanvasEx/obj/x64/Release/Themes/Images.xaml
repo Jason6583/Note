@@ -1,0 +1,83 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <BitmapImage x:Key="SmartPen" UriSource="ms-appx:///Assets/smartpen3.png"/>
+    <BitmapImage x:Key="SmartPenChecked" UriSource="ms-appx:///Assets/smartpen_hover3.png"/>
+
+    <BitmapImage x:Key="Ink" UriSource="ms-appx:///Assets/ink3.png"/>
+    <BitmapImage x:Key="InkChecked" UriSource="ms-appx:///Assets/ink_hover3.png"/>
+
+    <BitmapImage x:Key="TextReg" UriSource="ms-appx:///Assets/text_reg3.png"/>
+    <BitmapImage x:Key="TextRegChecked" UriSource="ms-appx:///Assets/text_reghover3.png"/>
+
+    <BitmapImage x:Key="ShapeReg" UriSource="ms-appx:///Assets/shape_reg3.png"/>
+    <BitmapImage x:Key="ShapeRegChecked" UriSource="ms-appx:///Assets/shapereg_hover3.png"/>
+
+    <BitmapImage x:Key="Eraser" UriSource="ms-appx:///Assets/eraser3.png"/>
+    <BitmapImage x:Key="EraserChecked" UriSource="ms-appx:///Assets/eraser_hover3.png"/>
+
+    <BitmapImage x:Key="Select" UriSource="ms-appx:///Assets/select3.png"/>
+    <BitmapImage x:Key="SelectChecked" UriSource="ms-appx:///Assets/select_hover3.png"/>
+
+    <BitmapImage x:Key="ScreenShot" UriSource="ms-appx:///Assets/screenshot3.png"/>
+    <BitmapImage x:Key="ScreenShotChecked" UriSource="ms-appx:///Assets/screenshot_hover3.png"/>
+
+    <BitmapImage x:Key="InsertImage" UriSource="ms-appx:///Assets/insertimage3.png"/>
+    <BitmapImage x:Key="InsertImageChecked" UriSource="ms-appx:///Assets/insertimage_hover3.png"/>
+
+    <BitmapImage x:Key="ChangeBackground" UriSource="ms-appx:///Assets/background3.png"/>
+    <BitmapImage x:Key="ChangeBackgroundChecked" UriSource="ms-appx:///Assets/background_hover3.png"/>
+
+    <BitmapImage x:Key="Recorder" UriSource="ms-appx:///Assets/recorder3.png"/>
+    <BitmapImage x:Key="RecorderChecked" UriSource="ms-appx:///Assets/recorder_hover3.png"/>
+
+    <BitmapImage x:Key="Undo" UriSource="ms-appx:///Assets/undo3.png"/>
+    <BitmapImage x:Key="UndoChecked" UriSource="ms-appx:///Assets/undo_hover3.png"/>
+
+    <BitmapImage x:Key="More" UriSource="ms-appx:///Assets/more3.png"/>
+    <BitmapImage x:Key="MoreChecked" UriSource="ms-appx:///Assets/more_hover3.png"/>
+
+    <BitmapImage x:Key="StopRecord" UriSource="ms-appx:///Assets/stop_toolbar.png"/>
+
+    <BitmapImage x:Key="Red" UriSource="ms-appx:///Assets/red3.png"/>
+    <BitmapImage x:Key="RedHover" UriSource="ms-appx:///Assets/red_checked3.png"/>
+    <BitmapImage x:Key="Orange" UriSource="ms-appx:///Assets/orange3.png"/>
+    <BitmapImage x:Key="OrangeHover" UriSource="ms-appx:///Assets/orange_checked3.png"/>
+    <BitmapImage x:Key="Yellow" UriSource="ms-appx:///Assets/yellow3.png"/>
+    <BitmapImage x:Key="YellowHover" UriSource="ms-appx:///Assets/yellow_checked3.png"/>
+    <BitmapImage x:Key="Green" UriSource="ms-appx:///Assets/green3.png"/>
+    <BitmapImage x:Key="GreenHover" UriSource="ms-appx:///Assets/green_checked3.png"/>
+    <BitmapImage x:Key="Blue" UriSource="ms-appx:///Assets/blue3.png"/>
+    <BitmapImage x:Key="BlueHover" UriSource="ms-appx:///Assets/blue_checked3.png"/>
+    <BitmapImage x:Key="Cyan" UriSource="ms-appx:///Assets/cyan3.png"/>
+    <BitmapImage x:Key="CyanHover" UriSource="ms-appx:///Assets/cyan_checked3.png"/>
+    <BitmapImage x:Key="Violet" UriSource="ms-appx:///Assets/violet3.png"/>
+    <BitmapImage x:Key="VioletHover" UriSource="ms-appx:///Assets/violet_checked3.png"/>
+    <BitmapImage x:Key="Black" UriSource="ms-appx:///Assets/black.png"/>
+    <BitmapImage x:Key="BlackHover" UriSource="ms-appx:///Assets/black_hover.png"/>
+    <BitmapImage x:Key="Gray" UriSource="ms-appx:///Assets/gray.png"/>
+    <BitmapImage x:Key="GrayHover" UriSource="ms-appx:///Assets/gray_hover.png"/>
+    <BitmapImage x:Key="White" UriSource="ms-appx:///Assets/white.png"/>
+    <BitmapImage x:Key="WhiteHover" UriSource="ms-appx:///Assets/white_hover.png"/>
+
+    <BitmapImage x:Key="Stroke1" UriSource="ms-appx:///Assets/stroke1_3.png"/>
+    <BitmapImage x:Key="Stroke1Hover" UriSource="ms-appx:///Assets/stroke1_hover3.png"/>
+    <BitmapImage x:Key="Stroke2" UriSource="ms-appx:///Assets/stroke2_3.png"/>
+    <BitmapImage x:Key="Stroke2Hover" UriSource="ms-appx:///Assets/stroke2_hover3.png"/>
+    <BitmapImage x:Key="Stroke3" UriSource="ms-appx:///Assets/stroke3_3.png"/>
+    <BitmapImage x:Key="Stroke3Hover" UriSource="ms-appx:///Assets/stroke3_hover3.png"/>
+    <BitmapImage x:Key="Stroke4" UriSource="ms-appx:///Assets/stroke4_3.png"/>
+    <BitmapImage x:Key="Stroke4Hover" UriSource="ms-appx:///Assets/stroke4_hover3.png"/>
+    <BitmapImage x:Key="Stroke5" UriSource="ms-appx:///Assets/stroke5_3.png"/>
+    <BitmapImage x:Key="Stroke5Hover" UriSource="ms-appx:///Assets/stroke5_hover3.png"/>
+
+    <BitmapImage x:Key="ParkPen" UriSource="ms-appx:///Assets/parkpen3.png"/>
+    <BitmapImage x:Key="ParkPenHover" UriSource="ms-appx:///Assets/parkpen_hover3.png"/>
+    <BitmapImage x:Key="BallPen" UriSource="ms-appx:///Assets/ballpen3.png"/>
+    <BitmapImage x:Key="BallPenHover" UriSource="ms-appx:///Assets/ballpen_hover3.png"/>
+    <BitmapImage x:Key="Pencil" UriSource="ms-appx:///Assets/pencil3.png"/>
+    <BitmapImage x:Key="PencilHover" UriSource="ms-appx:///Assets/pencil_hover3.png"/>   
+
+</ResourceDictionary>
+

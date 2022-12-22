@@ -1,0 +1,14 @@
+App.xbf
+Controls\EraserControl.xbf
+Controls\ImageContainer.xbf
+Controls\MessageContainer.xbf
+Controls\MoreColors.xbf
+Controls\MoreControl.xbf
+Controls\PenControl.xbf
+Controls\SelectionRect.xbf
+Controls\ShapeContainer.xbf
+Controls\TextContainer.xbf
+InkCanvasEx.xbf
+Themes\ButtonStyles.xbf
+Themes\FlyoutStyles.xbf
+Themes\Images.xbf

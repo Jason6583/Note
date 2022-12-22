@@ -1,0 +1,1010 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>JASON</Machine>
+    <WindowsUser>37095</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>490f0444-38bf-4342-ad6b-b93ef6643da9</PackageIdentityName>
+    <PackageIdentityPublisher>CN=黄建胜</PackageIdentityPublisher>
+    <IntermediateOutputPath>F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\obj\x64\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\AppX</LayoutDir>
+    <RegisteredManifestChecksum>CA0363CB1A94401229886B9CF2BF22D1E1480FC0596B8D8D41359E5BB404FC3D</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>490f0444-38bf-4342-ad6b-b93ef6643da9_1.0.0.0_x64__p21e1n3yeex2e</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>490f0444-38bf-4342-ad6b-b93ef6643da9_p21e1n3yeex2e!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>490f0444-38bf-4342-ad6b-b93ef6643da9</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=黄建胜</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-10-07T03:14:34.665</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\background.png">
+      <PackagePath>Assets\background.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.788</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\background2.png">
+      <PackagePath>Assets\background2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.792</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\background3.png">
+      <PackagePath>Assets\background3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.793</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\background_hover3.png">
+      <PackagePath>Assets\background_hover3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.791</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\ballpen1.png">
+      <PackagePath>Assets\ballpen1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.795</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\ballpen2.png">
+      <PackagePath>Assets\ballpen2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.796</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\ballpen3.png">
+      <PackagePath>Assets\ballpen3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.797</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\ballpen_hover1.png">
+      <PackagePath>Assets\ballpen_hover1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.794</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\ballpen_hover2.png">
+      <PackagePath>Assets\ballpen_hover2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.795</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\ballpen_hover3.png">
+      <PackagePath>Assets\ballpen_hover3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.795</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\black.png">
+      <PackagePath>Assets\black.png</PackagePath>
+      <Modified>2022-09-14T07:29:12.466</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\black_hover.png">
+      <PackagePath>Assets\black_hover.png</PackagePath>
+      <Modified>2022-09-14T07:29:55.232</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\bllue_checked2.png">
+      <PackagePath>Assets\bllue_checked2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\blue1.png">
+      <PackagePath>Assets\blue1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.802</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\blue2.png">
+      <PackagePath>Assets\blue2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.803</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\blue3.png">
+      <PackagePath>Assets\blue3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.804</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\blue_checked1.png">
+      <PackagePath>Assets\blue_checked1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.800</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\blue_checked3.png">
+      <PackagePath>Assets\blue_checked3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.801</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\border1.png">
+      <PackagePath>Assets\border1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.805</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\border2.png">
+      <PackagePath>Assets\border2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.806</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\border3.png">
+      <PackagePath>Assets\border3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.807</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\clear.png">
+      <PackagePath>Assets\clear.png</PackagePath>
+      <Modified>2022-09-13T10:57:55.408</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\clear_hover.png">
+      <PackagePath>Assets\clear_hover.png</PackagePath>
+      <Modified>2022-09-13T10:57:55.406</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\close1.png">
+      <PackagePath>Assets\close1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.808</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\close2.png">
+      <PackagePath>Assets\close2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.810</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\close3.png">
+      <PackagePath>Assets\close3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.811</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\cyan1.png">
+      <PackagePath>Assets\cyan1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.815</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\cyan2.png">
+      <PackagePath>Assets\cyan2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.816</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\cyan3.png">
+      <PackagePath>Assets\cyan3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.816</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\cyan_checked1.png">
+      <PackagePath>Assets\cyan_checked1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.812</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\cyan_checked2.png">
+      <PackagePath>Assets\cyan_checked2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.813</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\cyan_checked3.png">
+      <PackagePath>Assets\cyan_checked3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.814</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\ElementClose.png">
+      <PackagePath>Assets\ElementClose.png</PackagePath>
+      <Modified>2022-09-02T01:42:05.510</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\ElementRotate.png">
+      <PackagePath>Assets\ElementRotate.png</PackagePath>
+      <Modified>2022-09-02T01:42:05.506</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\ElementScale.png">
+      <PackagePath>Assets\ElementScale.png</PackagePath>
+      <Modified>2022-09-02T01:42:05.509</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\eraser1.png">
+      <PackagePath>Assets\eraser1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.820</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\eraser2.png">
+      <PackagePath>Assets\eraser2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.821</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\eraser3.png">
+      <PackagePath>Assets\eraser3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.823</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\eraser_hover1.png">
+      <PackagePath>Assets\eraser_hover1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.817</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\eraser_hover2.png">
+      <PackagePath>Assets\eraser_hover2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.818</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\eraser_hover3.png">
+      <PackagePath>Assets\eraser_hover3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.819</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\eraser_popup.png">
+      <PackagePath>Assets\eraser_popup.png</PackagePath>
+      <Modified>2022-09-13T10:51:53.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\gray.png">
+      <PackagePath>Assets\gray.png</PackagePath>
+      <Modified>2022-09-14T07:28:57.745</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\gray_hover.png">
+      <PackagePath>Assets\gray_hover.png</PackagePath>
+      <Modified>2022-09-14T07:29:34.425</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\green1.png">
+      <PackagePath>Assets\green1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.826</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\green2.png">
+      <PackagePath>Assets\green2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.827</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\green3.png">
+      <PackagePath>Assets\green3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.828</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\green_checked1.png">
+      <PackagePath>Assets\green_checked1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.824</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\green_checked2.png">
+      <PackagePath>Assets\green_checked2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.825</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\green_checked3.png">
+      <PackagePath>Assets\green_checked3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.825</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\ink1.png">
+      <PackagePath>Assets\ink1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.832</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\ink2.png">
+      <PackagePath>Assets\ink2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.832</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\ink3.png">
+      <PackagePath>Assets\ink3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.834</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\ink_hover1.png">
+      <PackagePath>Assets\ink_hover1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.829</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\ink_hover2.png">
+      <PackagePath>Assets\ink_hover2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.830</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\ink_hover3.png">
+      <PackagePath>Assets\ink_hover3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.831</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\insertimage1.png">
+      <PackagePath>Assets\insertimage1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.837</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\insertimage2.png">
+      <PackagePath>Assets\insertimage2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.838</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\insertimage3.png">
+      <PackagePath>Assets\insertimage3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.838</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\insertimage_hover1.png">
+      <PackagePath>Assets\insertimage_hover1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.835</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\insertimage_hover2.png">
+      <PackagePath>Assets\insertimage_hover2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.836</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\insertimage_hover3.png">
+      <PackagePath>Assets\insertimage_hover3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.836</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2022-05-25T06:16:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\max1.png">
+      <PackagePath>Assets\max1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.839</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\max2.png">
+      <PackagePath>Assets\max2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.842</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\max3.png">
+      <PackagePath>Assets\max3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.843</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\min1.png">
+      <PackagePath>Assets\min1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.844</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\min2.png">
+      <PackagePath>Assets\min2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.846</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\min3.png">
+      <PackagePath>Assets\min3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.847</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\more1.png">
+      <PackagePath>Assets\more1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.852</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\more2.png">
+      <PackagePath>Assets\more2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.853</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\more3.png">
+      <PackagePath>Assets\more3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.854</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\more_hover1.png">
+      <PackagePath>Assets\more_hover1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.849</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\more_hover2.png">
+      <PackagePath>Assets\more_hover2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.849</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\more_hover3.png">
+      <PackagePath>Assets\more_hover3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.850</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\more_popup - 复制.png">
+      <PackagePath>Assets\more_popup - 复制.png</PackagePath>
+      <Modified>2022-09-13T10:51:33.023</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\more_popup.png">
+      <PackagePath>Assets\more_popup.png</PackagePath>
+      <Modified>2022-09-13T10:27:08.505</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\off.png">
+      <PackagePath>Assets\off.png</PackagePath>
+      <Modified>2022-09-13T10:26:41.771</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\on.png">
+      <PackagePath>Assets\on.png</PackagePath>
+      <Modified>2022-09-13T10:26:20.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\orange1.png">
+      <PackagePath>Assets\orange1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.858</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\orange2.png">
+      <PackagePath>Assets\orange2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.858</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\orange3.png">
+      <PackagePath>Assets\orange3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.859</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\orange_checked1.png">
+      <PackagePath>Assets\orange_checked1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.855</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\orange_checked2.png">
+      <PackagePath>Assets\orange_checked2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.856</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\orange_checked3.png">
+      <PackagePath>Assets\orange_checked3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.857</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\parkpen1.png">
+      <PackagePath>Assets\parkpen1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.864</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\parkpen2.png">
+      <PackagePath>Assets\parkpen2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.865</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\parkpen3.png">
+      <PackagePath>Assets\parkpen3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.866</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\parkpen_hover1.png">
+      <PackagePath>Assets\parkpen_hover1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.859</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\parkpen_hover2.png">
+      <PackagePath>Assets\parkpen_hover2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.860</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\parkpen_hover3.png">
+      <PackagePath>Assets\parkpen_hover3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.861</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\pencil1.png">
+      <PackagePath>Assets\pencil1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.870</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\pencil2.png">
+      <PackagePath>Assets\pencil2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.871</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\pencil3.png">
+      <PackagePath>Assets\pencil3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.872</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\pencil_hover1.png">
+      <PackagePath>Assets\pencil_hover1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.867</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\pencil_hover2.png">
+      <PackagePath>Assets\pencil_hover2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.867</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\pencil_hover3.png">
+      <PackagePath>Assets\pencil_hover3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.868</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\pop1.png">
+      <PackagePath>Assets\pop1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.872</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\pop2.png">
+      <PackagePath>Assets\pop2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.873</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\pop3.png">
+      <PackagePath>Assets\pop3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.874</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\recorder1.png">
+      <PackagePath>Assets\recorder1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.875</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\recorder2.png">
+      <PackagePath>Assets\recorder2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.875</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\recorder3.png">
+      <PackagePath>Assets\recorder3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.876</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\recorder_hover3.png">
+      <PackagePath>Assets\recorder_hover3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.787</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\red1.png">
+      <PackagePath>Assets\red1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.881</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\red2.png">
+      <PackagePath>Assets\red2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.882</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\red3.png">
+      <PackagePath>Assets\red3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.882</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\red_checked1.png">
+      <PackagePath>Assets\red_checked1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.877</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\red_checked2.png">
+      <PackagePath>Assets\red_checked2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.880</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\red_checked3.png">
+      <PackagePath>Assets\red_checked3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.880</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\screenshot1.png">
+      <PackagePath>Assets\screenshot1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.887</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\screenshot2.png">
+      <PackagePath>Assets\screenshot2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.887</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\screenshot3.png">
+      <PackagePath>Assets\screenshot3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.888</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\screenshot_hover1.png">
+      <PackagePath>Assets\screenshot_hover1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.884</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\screenshot_hover2.png">
+      <PackagePath>Assets\screenshot_hover2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.885</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\screenshot_hover3.png">
+      <PackagePath>Assets\screenshot_hover3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.886</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\select1.png">
+      <PackagePath>Assets\select1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.892</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\select2.png">
+      <PackagePath>Assets\select2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.893</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\select3.png">
+      <PackagePath>Assets\select3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.893</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\select_hover1.png">
+      <PackagePath>Assets\select_hover1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.889</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\select_hover2.png">
+      <PackagePath>Assets\select_hover2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.890</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\select_hover3.png">
+      <PackagePath>Assets\select_hover3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.891</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\select_popup.png">
+      <PackagePath>Assets\select_popup.png</PackagePath>
+      <Modified>2022-09-14T10:28:04.927</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\shapereg_hover1.png">
+      <PackagePath>Assets\shapereg_hover1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.899</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\shapereg_hover2.png">
+      <PackagePath>Assets\shapereg_hover2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.900</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\shapereg_hover3.png">
+      <PackagePath>Assets\shapereg_hover3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.902</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\shape_reg1.png">
+      <PackagePath>Assets\shape_reg1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.895</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\shape_reg2.png">
+      <PackagePath>Assets\shape_reg2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.896</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\shape_reg3.png">
+      <PackagePath>Assets\shape_reg3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.898</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\share1.png">
+      <PackagePath>Assets\share1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.903</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\share2.png">
+      <PackagePath>Assets\share2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.905</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\share3.png">
+      <PackagePath>Assets\share3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.905</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\smartpen1.png">
+      <PackagePath>Assets\smartpen1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\smartpen2.png">
+      <PackagePath>Assets\smartpen2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\smartpen3.png">
+      <PackagePath>Assets\smartpen3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.915</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\smartpen_hover1.png">
+      <PackagePath>Assets\smartpen_hover1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.906</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\smartpen_hover2.png">
+      <PackagePath>Assets\smartpen_hover2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.911</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\smartpen_hover3.png">
+      <PackagePath>Assets\smartpen_hover3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.912</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-25T06:16:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-25T06:16:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-25T06:16:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-25T06:16:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\stop_popup.png">
+      <PackagePath>Assets\stop_popup.png</PackagePath>
+      <Modified>2022-09-14T02:54:29.058</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\stop_toolbar.png">
+      <PackagePath>Assets\stop_toolbar.png</PackagePath>
+      <Modified>2022-09-14T02:49:28.624</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-25T06:16:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\stroke1_1.png">
+      <PackagePath>Assets\stroke1_1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.916</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\stroke1_2.png">
+      <PackagePath>Assets\stroke1_2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.916</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\stroke1_3.png">
+      <PackagePath>Assets\stroke1_3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.917</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\stroke1_hover1.png">
+      <PackagePath>Assets\stroke1_hover1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\stroke1_hover2.png">
+      <PackagePath>Assets\stroke1_hover2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.919</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\stroke1_hover3.png">
+      <PackagePath>Assets\stroke1_hover3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.920</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\stroke2_1.png">
+      <PackagePath>Assets\stroke2_1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.921</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\stroke2_2.png">
+      <PackagePath>Assets\stroke2_2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.921</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\stroke2_3.png">
+      <PackagePath>Assets\stroke2_3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.923</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\stroke2_hover1.png">
+      <PackagePath>Assets\stroke2_hover1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.923</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\stroke2_hover2.png">
+      <PackagePath>Assets\stroke2_hover2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.924</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\stroke2_hover3.png">
+      <PackagePath>Assets\stroke2_hover3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.926</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\stroke3_1.png">
+      <PackagePath>Assets\stroke3_1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.927</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\stroke3_2.png">
+      <PackagePath>Assets\stroke3_2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.928</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\stroke3_3.png">
+      <PackagePath>Assets\stroke3_3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.929</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\stroke3_hover1.png">
+      <PackagePath>Assets\stroke3_hover1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.929</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\stroke3_hover2.png">
+      <PackagePath>Assets\stroke3_hover2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.931</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\stroke3_hover3.png">
+      <PackagePath>Assets\stroke3_hover3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.932</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\stroke4_1.png">
+      <PackagePath>Assets\stroke4_1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.933</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\stroke4_2.png">
+      <PackagePath>Assets\stroke4_2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.933</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\stroke4_3.png">
+      <PackagePath>Assets\stroke4_3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.934</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\stroke4_hover1.png">
+      <PackagePath>Assets\stroke4_hover1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.935</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\stroke4_hover2.png">
+      <PackagePath>Assets\stroke4_hover2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.936</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\stroke4_hover3.png">
+      <PackagePath>Assets\stroke4_hover3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.936</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\stroke5_1.png">
+      <PackagePath>Assets\stroke5_1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\stroke5_2.png">
+      <PackagePath>Assets\stroke5_2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.939</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\stroke5_3.png">
+      <PackagePath>Assets\stroke5_3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.939</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\stroke5_hover1.png">
+      <PackagePath>Assets\stroke5_hover1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.940</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\stroke5_hover2.png">
+      <PackagePath>Assets\stroke5_hover2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.942</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\stroke5_hover3.png">
+      <PackagePath>Assets\stroke5_hover3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.943</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\text_reg1.png">
+      <PackagePath>Assets\text_reg1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.944</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\text_reg2.png">
+      <PackagePath>Assets\text_reg2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.944</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\text_reg3.png">
+      <PackagePath>Assets\text_reg3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.945</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\text_reghover1.png">
+      <PackagePath>Assets\text_reghover1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.946</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\text_reghover2.png">
+      <PackagePath>Assets\text_reghover2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.947</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\text_reghover3.png">
+      <PackagePath>Assets\text_reghover3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.948</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\titlebar1.png">
+      <PackagePath>Assets\titlebar1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.949</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\titlebar2.png">
+      <PackagePath>Assets\titlebar2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.950</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\titlebar3.png">
+      <PackagePath>Assets\titlebar3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.950</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\undo1.png">
+      <PackagePath>Assets\undo1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.954</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\undo2.png">
+      <PackagePath>Assets\undo2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\undo3.png">
+      <PackagePath>Assets\undo3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\undo_hover1.png">
+      <PackagePath>Assets\undo_hover1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.951</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\undo_hover2.png">
+      <PackagePath>Assets\undo_hover2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.952</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\undo_hover3.png">
+      <PackagePath>Assets\undo_hover3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.954</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\violet1.png">
+      <PackagePath>Assets\violet1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.960</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\violet2.png">
+      <PackagePath>Assets\violet2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.961</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\violet3.png">
+      <PackagePath>Assets\violet3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.962</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\violet_checked1.png">
+      <PackagePath>Assets\violet_checked1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.957</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\violet_checked2.png">
+      <PackagePath>Assets\violet_checked2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.958</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\violet_checked3.png">
+      <PackagePath>Assets\violet_checked3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.959</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\white.png">
+      <PackagePath>Assets\white.png</PackagePath>
+      <Modified>2022-09-14T07:28:39.789</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\white_hover.png">
+      <PackagePath>Assets\white_hover.png</PackagePath>
+      <Modified>2022-09-14T07:30:20.051</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-05-25T06:16:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\yellow1.png">
+      <PackagePath>Assets\yellow1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.965</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\yellow2.png">
+      <PackagePath>Assets\yellow2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.966</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\yellow3.png">
+      <PackagePath>Assets\yellow3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.781</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\yellow_checked1.png">
+      <PackagePath>Assets\yellow_checked1.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.963</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\yellow_checked2.png">
+      <PackagePath>Assets\yellow_checked2.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.964</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Assets\yellow_checked3.png">
+      <PackagePath>Assets\yellow_checked3.png</PackagePath>
+      <Modified>2022-09-13T06:44:47.964</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\clrcompression.dll">
+      <PackagePath>clrcompression.dll</PackagePath>
+      <Modified>2021-02-05T01:15:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+      <Modified>2021-04-28T19:55:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Microsoft.Graphics.Canvas.winmd">
+      <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
+      <Modified>2021-04-28T19:54:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Microsoft.Toolkit.Win32.UI.XamlHost.dll">
+      <PackagePath>Microsoft.Toolkit.Win32.UI.XamlHost.dll</PackagePath>
+      <Modified>2021-07-09T21:41:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Microsoft.Toolkit.Win32.UI.XamlHost.winmd">
+      <PackagePath>Microsoft.Toolkit.Win32.UI.XamlHost.winmd</PackagePath>
+      <Modified>2021-07-09T21:41:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Note.InkCanvasEx.dll">
+      <PackagePath>Note.InkCanvasEx.dll</PackagePath>
+      <Modified>2022-10-07T03:14:33.656</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Note.InkCanvasEx.exe">
+      <PackagePath>Note.InkCanvasEx.exe</PackagePath>
+      <Modified>2022-10-07T03:14:34.636</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\Note.InkCanvasEx.pdb">
+      <PackagePath>Note.InkCanvasEx.pdb</PackagePath>
+      <Modified>2022-10-07T03:14:34.625</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Note优化\Note重构\Note优化版\Note.InkCanvasEx\bin\x64\Release\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2022-10-07T03:13:55.214</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\37095\.nuget\packages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.2.8-rel-29722-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx">
+      <Name>Microsoft.NET.Native.Framework.2.2</Name>
+      <Version>2.2.29512.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.2, MinVersion = 2.2.29512.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\37095\.nuget\packages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.2.8-rel-29722-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\37095\.nuget\packages\runtime.win10-x64.microsoft.net.native.sharedlibrary\2.2.8-rel-29722-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx">
+      <Name>Microsoft.NET.Native.Framework.2.2</Name>
+      <Version>2.2.29512.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.2, MinVersion = 2.2.29512.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\37095\.nuget\packages\runtime.win10-x64.microsoft.net.native.sharedlibrary\2.2.8-rel-29722-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\37095\.nuget\packages\runtime.win10-arm64.microsoft.net.native.sharedlibrary\2.2.8-rel-29722-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx">
+      <Name>Microsoft.NET.Native.Framework.2.2</Name>
+      <Version>2.2.29512.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.2, MinVersion = 2.2.29512.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\37095\.nuget\packages\runtime.win10-arm64.microsoft.net.native.sharedlibrary\2.2.8-rel-29722-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\37095\.nuget\packages\runtime.win10-arm.microsoft.net.native.sharedlibrary\2.2.8-rel-29722-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx">
+      <Name>Microsoft.NET.Native.Framework.2.2</Name>
+      <Version>2.2.29512.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.2, MinVersion = 2.2.29512.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\37095\.nuget\packages\runtime.win10-arm.microsoft.net.native.sharedlibrary\2.2.8-rel-29722-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\37095\.nuget\packages\runtime.win10-x86.microsoft.net.native.compiler\2.2.10-rel-29722-00\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.2.2.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.2</Name>
+      <Version>2.2.28604.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.2, MinVersion = 2.2.28604.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\37095\.nuget\packages\runtime.win10-x86.microsoft.net.native.compiler\2.2.10-rel-29722-00\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\37095\.nuget\packages\runtime.win10-x64.microsoft.net.native.compiler\2.2.10-rel-29722-00\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.2.2.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.2</Name>
+      <Version>2.2.28604.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.2, MinVersion = 2.2.28604.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\37095\.nuget\packages\runtime.win10-x64.microsoft.net.native.compiler\2.2.10-rel-29722-00\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\37095\.nuget\packages\runtime.win10-arm64.microsoft.net.native.compiler\2.2.10-rel-29722-00\build\..\tools\Runtime\arm64\Microsoft.NET.Native.Runtime.2.2.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.2</Name>
+      <Version>2.2.28604.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.2, MinVersion = 2.2.28604.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\37095\.nuget\packages\runtime.win10-arm64.microsoft.net.native.compiler\2.2.10-rel-29722-00\build\..\tools\Runtime\arm64\Microsoft.NET.Native.Runtime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\37095\.nuget\packages\runtime.win10-arm.microsoft.net.native.compiler\2.2.10-rel-29722-00\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.2.2.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.2</Name>
+      <Version>2.2.28604.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.2, MinVersion = 2.2.28604.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\37095\.nuget\packages\runtime.win10-arm.microsoft.net.native.compiler\2.2.10-rel-29722-00\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM64\Microsoft.VCLibs.ARM64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

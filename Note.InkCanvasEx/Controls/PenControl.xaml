@@ -1,0 +1,63 @@
+﻿<UserControl
+    x:Class="Note.InkCanvasEx.Controls.PenControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="using:Note.InkCanvasEx.Controls"
+    xmlns:converters="using:Note.InkCanvasEx.Converters"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="328"
+    d:DesignWidth="255">
+    <UserControl.Resources>
+        <converters:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+        <converters:InvertingBooleanToVisibilityConverters x:Key="InvertingBooleanToVisibilityConverters"/>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="64"/>
+            <RowDefinition Height="14"/>
+            <RowDefinition Height="49"/>
+            <RowDefinition Height="14"/>
+            <RowDefinition Height="84"/>
+        </Grid.RowDefinitions>
+        <controls:UniformGrid Rows="2" Columns="3">
+            <controls:ImageRadioButton x:Name="BallPenBtn" NormalImage="{StaticResource BallPen}" CheckedImage="{StaticResource BallPenHover}" Checked="PenType_Checked"/>
+            <controls:ImageRadioButton x:Name="PencilBtn" NormalImage="{StaticResource Pencil}" CheckedImage="{StaticResource PencilHover}" Checked="PenType_Checked"/>
+            <controls:ImageRadioButton x:Name="ParkPenBtn" NormalImage="{StaticResource ParkPen}" CheckedImage="{StaticResource ParkPenHover}" Checked="PenType_Checked"/>
+            <TextBlock Text="圆珠笔" HorizontalAlignment="Center" FontSize="12" Foreground="#4A4B4C"/>
+            <TextBlock Text="铅笔" HorizontalAlignment="Center" FontSize="12" Foreground="#4A4B4C"/>
+            <TextBlock Text="钢笔" HorizontalAlignment="Center" FontSize="12" Foreground="#4A4B4C"/>
+        </controls:UniformGrid>
+        
+        <InkCanvas x:Name="inkCanvas" Grid.Row="1" Width="200" Height="39" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Text="粗细" Margin="15,0,0,0" Grid.Row="2" Foreground="#4A4B4C" FontSize="10"/>
+
+        <controls:UniformGrid Grid.Row="3" Rows="1">
+            <controls:ImageRadioButton x:Name="Stroke1Btn" NormalImage="{StaticResource Stroke1}" CheckedImage="{StaticResource Stroke1Hover}" Checked="PenSize_Checked"/>
+            <controls:ImageRadioButton x:Name="Stroke2Btn" NormalImage="{StaticResource Stroke2}" CheckedImage="{StaticResource Stroke2Hover}" Checked="PenSize_Checked"/>
+            <controls:ImageRadioButton x:Name="Stroke3Btn" NormalImage="{StaticResource Stroke3}" CheckedImage="{StaticResource Stroke3Hover}" Checked="PenSize_Checked"/>
+            <controls:ImageRadioButton x:Name="Stroke4Btn" NormalImage="{StaticResource Stroke4}" CheckedImage="{StaticResource Stroke4Hover}" Checked="PenSize_Checked"/>
+            <controls:ImageRadioButton x:Name="Stroke5Btn" NormalImage="{StaticResource Stroke5}" CheckedImage="{StaticResource Stroke5Hover}" Checked="PenSize_Checked"/>
+        </controls:UniformGrid>
+        
+        <TextBlock Text="颜色" 
+                   Margin="15,0,0,0" 
+                   Grid.Row="4" 
+                   Foreground="#4A4B4C" 
+                   FontSize="10"/>
+        <controls:UniformGrid Rows="2" Columns="5" Grid.Row="5">
+            <controls:ImageRadioButton x:Name="RedBtn" NormalImage="{StaticResource Red}" CheckedImage="{StaticResource RedHover}" Checked="PenColor_Checked"/>
+            <controls:ImageRadioButton x:Name="OrangeBtn" NormalImage="{StaticResource Orange}" CheckedImage="{StaticResource OrangeHover}" Checked="PenColor_Checked"/>
+            <controls:ImageRadioButton x:Name="YellowBtn" NormalImage="{StaticResource Yellow}" CheckedImage="{StaticResource YellowHover}" Checked="PenColor_Checked"/>
+            <controls:ImageRadioButton x:Name="GreenBtn" NormalImage="{StaticResource Green}" CheckedImage="{StaticResource GreenHover}" Checked="PenColor_Checked"/>
+            <controls:ImageRadioButton x:Name="BlueBtn" NormalImage="{StaticResource Blue}" CheckedImage="{StaticResource BlueHover}" Checked="PenColor_Checked"/>
+            <controls:ImageRadioButton x:Name="CyanBtn" NormalImage="{StaticResource Cyan}" CheckedImage="{StaticResource CyanHover}" Checked="PenColor_Checked"/>
+            <controls:ImageRadioButton x:Name="VioletBtn" NormalImage="{StaticResource Violet}" CheckedImage="{StaticResource VioletHover}" Checked="PenColor_Checked"/>
+            <controls:ImageRadioButton x:Name="WhiteBtn" NormalImage="{StaticResource White}" CheckedImage="{StaticResource WhiteHover}" Checked="PenColor_Checked"/>
+            <controls:ImageRadioButton x:Name="GrayBtn" NormalImage="{StaticResource Gray}" CheckedImage="{StaticResource GrayHover}" Checked="PenColor_Checked"/>
+            <controls:ImageRadioButton x:Name="BlackBtn" NormalImage="{StaticResource Black}" CheckedImage="{StaticResource BlackHover}" Checked="PenColor_Checked"/>
+        </controls:UniformGrid>
+    </Grid>
+</UserControl>

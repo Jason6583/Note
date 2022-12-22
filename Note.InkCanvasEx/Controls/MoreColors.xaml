@@ -1,0 +1,26 @@
+﻿<UserControl
+    x:Class="Note.InkCanvasEx.Controls.MoreColors"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Note.InkCanvasEx.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Note.InkCanvasEx.Controls"   
+    mc:Ignorable="d" 
+    d:DesignHeight="80"
+    d:DesignWidth="170">
+    <Grid>
+        <controls:UniformGrid Rows="2" Columns="5">
+            <controls:ImageRadioButton x:Name="BackColor1" NormalImage="{StaticResource Red}" CheckedImage="{StaticResource RedHover}" Checked="BackColor_Checked"/>
+            <controls:ImageRadioButton x:Name="BackColor2" NormalImage="{StaticResource Orange}" CheckedImage="{StaticResource OrangeHover}" Checked="BackColor_Checked"/>
+            <controls:ImageRadioButton x:Name="BackColor3" NormalImage="{StaticResource Yellow}" CheckedImage="{StaticResource YellowHover}" Checked="BackColor_Checked"/>
+            <controls:ImageRadioButton x:Name="BackColor4" NormalImage="{StaticResource Green}" CheckedImage="{StaticResource GreenHover}" Checked="BackColor_Checked"/>
+            <controls:ImageRadioButton x:Name="BackColor5" NormalImage="{StaticResource Blue}" CheckedImage="{StaticResource BlueHover}" Checked="BackColor_Checked"/>
+            <controls:ImageRadioButton x:Name="BackColor6" NormalImage="{StaticResource Cyan}" CheckedImage="{StaticResource CyanHover}" Checked="BackColor_Checked"/>
+            <controls:ImageRadioButton x:Name="BackColor7" NormalImage="{StaticResource Violet}" CheckedImage="{StaticResource VioletHover}" Checked="BackColor_Checked"/>
+            <controls:ImageRadioButton x:Name="BackColor8" NormalImage="{StaticResource White}" CheckedImage="{StaticResource WhiteHover}" Checked="BackColor_Checked"/>
+            <controls:ImageRadioButton x:Name="BackColor9" NormalImage="{StaticResource Gray}" CheckedImage="{StaticResource GrayHover}" Checked="BackColor_Checked"/>
+            <controls:ImageRadioButton x:Name="BackColor10" NormalImage="{StaticResource Black}" CheckedImage="{StaticResource BlackHover}" Checked="BackColor_Checked"/>
+        </controls:UniformGrid>
+    </Grid>
+</UserControl>
